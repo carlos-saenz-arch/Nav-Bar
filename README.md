@@ -17,7 +17,7 @@ Este es un proyecto básico de desarrollo web que crea una barra de navegación 
 
 ###Descripción
 <p>
-La barra de navegación está diseñada para sitios web y permite a los usuarios navegar a través de diferentes secciones de una página. Incluye cuatro enlaces: Inicio, Servicios, Nosotros y Contacto. Los efectos hover en los enlaces cambian el color de fondo y de texto al pasar el cursor sobre ellos, ofreciendo una experiencia visual interactiva.
+La barra de navegación está diseñada para sitios web y permite a los usuarios navegar a través de diferentes secciones de una página. Incluye cuatro enlaces: Home, About me, contac, blog, Ademas de eso lleva un Boton. Los efectos hover en los enlaces cambian el color con un efecto sombrio al pasar el cursor sobre ellos, ofreciendo una experiencia visual interactiva.
 </p>
 
 
@@ -31,10 +31,12 @@ La estructura de este proyecto sigue la convención BEM:
 - `.list__list`: la lista que contiene los enlaces.
 - `.nav__item`: cada elemento de la lista.
 - `.nav__link`: el enlace dentro de cada elemento.
+- - `.nav__button`: el botón de **Login**.
 ## Características
 - **Interactividad con Efectos Hover**: Resalta los enlaces al pasar el cursor sobre ellos.
 - **Modularidad con BEM**: Uso de la metodología BEM para hacer el CSS más estructurado y reutilizable.
 - **Adaptabilidad**: Fácil de personalizar para diferentes proyectos y estilos visuales.
+- - **Botón de Login**: Incluye un botón que simula una opción de inicio de sesión.
 ###Tecnologías Utilizadas
 - **HTML** : para la estructuta básica del proyecto.
 - **CSS3**: para los estilos y efectos hover en la barra de navegación.
