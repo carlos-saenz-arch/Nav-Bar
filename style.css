@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.nav__list {
+    margin: 0;
+}
+
+.nav__item {
+    display: inline-block;
+
+}
+
+.nav__link:hover {
+    background-color: #59e;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.link--buttom {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 8px 16px;
+    color: #48e;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+
+.link--buttom:hover {
+    background: transparent;
+    color: #fff;
+}
