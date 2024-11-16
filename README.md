@@ -1,30 +1,30 @@
-##Barra De Navegacion Con HTML CSS
+## Navigation Bar with HTML CSS
 <p>
-Este es un proyecto básico de desarrollo web que crea una barra de navegación con HTML y CSS, usando la metodología BEM para la estructura de clases en el CSS. La barra incluye un efecto hover en los enlaces, lo que mejora la experiencia de usuario.
+This is a basic web development project that creates a navigation bar with HTML and CSS, using the BEM methodology for class structure in CSS. The bar includes a hover effect on the links, which improves the user experience.
 </p>
 
-## Tabla de Contenidos
-1. [Descripción](#descripción)
-2. [Estructura del Proyecto](#estructura-del-proyecto)
-3. [Características](#características)
-4. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-5. [Instalación](#instalación)
-6. [Captura de Pantalla](#captura-de-pantalla)
-7. [Uso](#uso)
-8. [Mejoras Futuras](#mejoras-futuras)
-9. [Contribuciones](#contribuciones)
-10. [Licencia](#licencia)
+## Table of Contents
+1. [Description](#description)
+2. [Project Structure](#project-structure)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Installation](#installation)
+6. [Screenshot](#screenshot)
+7. [Use](#use)
+8. [Future Improvements](#future-improvements)
+9. [Contributions](#contributions)
+10. [License](#license)
 
-###Descripción
+### Description
 <p>
-La barra de navegación está diseñada para sitios web y permite a los usuarios navegar a través de diferentes secciones de una página. Incluye cuatro enlaces: Home, About me, contac, blog, Ademas de eso lleva un Boton. Los efectos hover en los enlaces cambian el color con un efecto sombrio al pasar el cursor sobre ellos, ofreciendo una experiencia visual interactiva.
+The navigation bar is designed for websites and allows users to navigate through different sections of a page. It includes four links: Home, About me, contact, blog. In addition to that it has a Button. Hover effects on links change color with a shadow effect when you hover over them, offering an interactive visual experience.
 </p>
 
 
-### Estructura del Proyecto
-El proyecto está organizado en los siguientes archivos y carpetas:
-proyecto-barra-navegacion/ │ ├── index.html # Estructura HTML de la barra de navegación ├── styles.css # Estilos CSS y efectos de hover └── README.md # Documentación del proyecto
-La estructura de este proyecto sigue la convención BEM:
+### Project Structure
+The project is organized in the following files and folders:
+navigation-bar-project/ │ ├── index.html # Navigation bar HTML structure ├── styles.css # CSS styles and hover effects └── README.md # Project documentation
+The structure of this project follows the BEM convention:
 
 - **Bloque Principal**: `.nav` (la barra de navegación completa).
 - **Elementos del Bloque**:
@@ -32,17 +32,20 @@ La estructura de este proyecto sigue la convención BEM:
 - `.nav__item`: cada elemento de la lista.
 - `.nav__link`: el enlace dentro de cada elemento.
 - - `.nav__button`: el botón de **Login**.
-## Características
-- **Interactividad con Efectos Hover**: Resalta los enlaces al pasar el cursor sobre ellos.
-- **Modularidad con BEM**: Uso de la metodología BEM para hacer el CSS más estructurado y reutilizable.
-- **Adaptabilidad**: Fácil de personalizar para diferentes proyectos y estilos visuales.
-- - **Botón de Login**: Incluye un botón que simula una opción de inicio de sesión.
-###Tecnologías Utilizadas
-- **HTML** : para la estructuta básica del proyecto.
-- **CSS3**: para los estilos y efectos hover en la barra de navegación.
-- **Metodología BEM**: para estructurar las clases de CSS de una forma organizada y modular.
-## Instalación
-Para ejecutar el proyecto, clona este repositorio y abre `index.html` en tu navegador:
+
+## Characteristics
+- **Interactivity with Hover Effects**: Highlight links when you hover over them.
+- **Modularity with BEM**: Use of the BEM methodology to make CSS more structured and reusable.
+- **Adaptability**: Easy to customize for different projects and visual styles.
+- **Login Button**: Includes a button that simulates a login option.
+
+### Technologies Used
+- **HTML**: for the basic structure of the project.
+- **CSS3**: for hover styles and effects in the navigation bar.
+- **BEM Methodology**: to structure CSS classes in an organized and modular way.
+
+## Facility
+To run the project, clone this repository and open `index.html` in your browser:
 
 ```
 git bash
@@ -51,23 +54,25 @@ cd nombre-del-repositorio
 open index.html
 ```
 
+### Screenshot
 
+### Use
+This project can be used as a starting point for a navigation bar on any website, with options to:
+- **Home**: Go to the main page of the site.
+- **About me**: Provides information about the company or creator.
+- **Contact**: Allows users to contact each other.
+- **Blog**: Shows a list of posts and projects.
+- **Login**: Access to the system (only simulated in this project).
 
-###Captura de Pantalla
-###Uso
-Este proyecto se puede usar como punto de partida para una barra de navegación en cualquier sitio web, con opciones para:
-- **Home**: Dirige a la página principal del sitio.
-- **About me**: Proporciona información sobre la empresa o creador.
-- **Contact**: Permite a los usuarios contactarse.
-- **Blog**: Muestra una lista de publicaciones y proyectos.
-- **Login**: Acceso al sistema (solo simulado en este proyecto).
-###Mejoras Futuras
-Algunas ideas para mejorar este proyecto en el futuro son:
-1. Añadir Responsividad: Usar media queries para optimizar la barra de navegación en dispositivos móviles.
-2. Efectos Adicionales: Agregar animaciones o transiciones más complejas.
-3. Dropdown Menús: Incluir menús desplegables para secciones con subenlaces.
-4. Funcionalidad de Login Real: Implementar un formulario de inicio de sesión con HTML, CSS y JavaScript.
-###Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, crea una bifurcación, realiza tus cambios y envía un pull request.
-###Licencia
-Este proyecto está bajo la Licencia MIT.
+### Future Improvements
+Some ideas to improve this project in the future are:
+1. Add Responsiveness: Use media queries to optimize the navigation bar on mobile devices.
+2. Additional Effects: Add more complex animations or transitions.
+3. Dropdown Menus: Include dropdown menus for sections with sublinks.
+4. Real Login Functionality: Implement a login form with HTML, CSS and JavaScript.
+
+### Contributions
+Contributions are welcome. If you want to improve the project, create a fork, make your changes, and submit a pull request.
+
+### License
+This project is licensed under the MIT License.
